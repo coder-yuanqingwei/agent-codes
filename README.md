@@ -1,16 +1,21 @@
-# 经典贪吃蛇
+# 经典贪吃蛇（Vue 3 + TypeScript）
 
-使用原生 HTML/CSS/JS 实现的最小版贪吃蛇（25x25 网格）。
+基于 Vue 3 + TypeScript + Vite 的贪吃蛇（25x25 网格），玩法与原版保持一致。
 
-## 运行
+## 安装与运行
 
-1. 在当前目录启动本地静态服务器：
-   - `python3 -m http.server 5173`
-2. 打开 [http://localhost:5173](http://localhost:5173)
+1. 安装依赖：
+   - `npm install`
+2. 启动开发环境：
+   - `npm run dev`
+3. 构建生产版本：
+   - `npm run build`
+4. 预览生产构建：
+   - `npm run preview`
 
 ## 测试
 
-- 运行 `npm test`
+- 运行核心逻辑测试：`npm test`
 
 ## 手动验证清单
 
